@@ -30,7 +30,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	unsigned int num1=999, num2;
 	unsigned int theNum=0; //searching for	
 	unsigned int newNum (0); //current  pair result
-	unsigned int minNum = 111;
+	unsigned int minNum = 100;
 	for(num1; num1>=minNum ;--num1)
 	{
 		for(num2=999; num2>=minNum && (newNum = num1*num2) > theNum; --num2)
